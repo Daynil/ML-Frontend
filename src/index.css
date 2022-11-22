@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../static/font/Ubuntu-Regular.ttf')
+}
+
+* {
+  font-family: 'Ubuntu'
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 45%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 60%);
+}
+
+
+@tailwind utilities;
